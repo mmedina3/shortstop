@@ -28,11 +28,11 @@ class Navbars extends Component {
                             > South America &nbsp;&nbsp;&nbsp;&nbsp;|
                 </NavItem>
 
-                             <NavItem eventKey={5} href="#asia" target="_blank"
+                            <NavItem eventKey={5} href="#asia" target="_blank"
                             > Asia &nbsp;&nbsp;&nbsp;&nbsp;|
                 </NavItem>
 
-                             <NavItem eventKey={6} href="#africa" target="_blank"
+                            <NavItem eventKey={6} href="#africa" target="_blank"
                             > Africa &nbsp;&nbsp;&nbsp;&nbsp;|
                 </NavItem>
 
@@ -40,12 +40,12 @@ class Navbars extends Component {
                             > Europe &nbsp;&nbsp;&nbsp;&nbsp;|
                 </NavItem>
 
-                <NavItem eventKey={8} href="#caribbean" target="_blank"
+                            <NavItem eventKey={8} href="#caribbean" target="_blank"
                             > Caribbean &nbsp;&nbsp;&nbsp;&nbsp;|
                 </NavItem>
 
-                <NavItem eventKey={9} href="#middleeast" target="_blank"
-                            > Middle East 
+                            <NavItem eventKey={9} href="#middleeast" target="_blank"
+                            > Middle East
                 </NavItem>
                         </Nav>
                     </Navbar.Collapse>

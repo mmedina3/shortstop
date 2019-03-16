@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+#connect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 3px solid purple; */
+    margin-bottom: 3%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #7094db;
+    font-size: 20px;
+}
+
+#footer-links {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#connect img{
+    align-content: center;
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#connect > h2 > a:link {
+    color: #7094db;
+}
+
+#connect > h2 > a:hover {
+    color:#708090;
+}

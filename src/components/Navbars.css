@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+.navbar {
+    border: 0 !important;
+    box-shadow: none !important; 
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+
+}
+
+.container-fluid{
+    background-color: white;
+    margin-top: 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+.navbar-brand {
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+

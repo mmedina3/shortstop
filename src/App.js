@@ -1,25 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Navbars from './components/Navbars';
+// eslint-disable-next-line 
+import Footer from './components/Footer';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+      <div id="APP" className="App">
+        <header>
+          {/* <Navbars /> */}
         </header>
+        <div className="App-intro">
+        <h1 className="title2"><p>The Short Stop</p></h1>
+        <h2 className="subtitle">Eat well. Travel often.</h2>
+        {/* <Footer /> */}
+        </div>
       </div>
     );
   }
